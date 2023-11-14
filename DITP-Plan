@@ -1,0 +1,11 @@
+The purpose of this document is to outline the research and recommendations to integrate Jira and Github
+Proposal:
+  1. Prepare the current BC Wallet backlog to be imported into the DITP Jira instance
+    a. Step 1 - Cleanup and baseline the backlog - close all open tickets that can be closed
+    b. Step 2 - Groom and prioritize the remaining issues
+    c. Step 3 - export the current issues to csv
+    d. Step 4 - Re-org the structure into EPICS, Story, Tasks, Bugs etc
+  2. Import the restructured backlog into a new project in Jira
+  3. Check and groom the backlog to ensure it makes sense inside Jira
+  4. Create the linkages between github and Jira issues - we should be able to get the history of the github issues into Jira with a small amount of effort
+  5. Setup the Jira structure into Itrerations, sprints
